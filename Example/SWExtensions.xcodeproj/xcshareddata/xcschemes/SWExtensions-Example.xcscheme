@@ -34,6 +34,20 @@
                ReferencedContainer = "container:SWExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C54753C1B39745600737ED2"
+               BuildableName = "SWExtensionsTests.xctest"
+               BlueprintName = "SWExtensionsTests"
+               ReferencedContainer = "container:SWExtensions.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "SWExtensions_Tests.xctest"
                BlueprintName = "SWExtensions_Tests"
+               ReferencedContainer = "container:SWExtensions.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C54753C1B39745600737ED2"
+               BuildableName = "SWExtensionsTests.xctest"
+               BlueprintName = "SWExtensionsTests"
                ReferencedContainer = "container:SWExtensions.xcodeproj">
             </BuildableReference>
          </TestableReference>
