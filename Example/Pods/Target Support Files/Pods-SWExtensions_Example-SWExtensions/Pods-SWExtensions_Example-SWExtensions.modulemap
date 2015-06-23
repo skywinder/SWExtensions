@@ -1,0 +1,6 @@
+framework module SWExtensions {
+  umbrella header "Pods-SWExtensions_Example-SWExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
