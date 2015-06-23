@@ -72,11 +72,11 @@
 		06EDFC7010C22E2754C97EB4 /* Pods_SWExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5475331B39745600737ED2 /* SWExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5475361B39745600737ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C5475371B39745600737ED2 /* SWExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWExtensions.h; sourceTree = "<group>"; };
+		1C5475371B39745600737ED2 /* SWExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWExtensions.h; path = ../../SWExtensions/SWExtensions.h; sourceTree = "<group>"; };
 		1C54753D1B39745600737ED2 /* SWExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5475451B39745600737ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C5475461B39745600737ED2 /* SWExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWExtensionsTests.swift; sourceTree = "<group>"; };
-		1C5475541B3974DD00737ED2 /* UIButton+SWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+SWExtension.swift"; path = "UIKit/UIButton+SWExtension.swift"; sourceTree = "<group>"; };
+		1C5475541B3974DD00737ED2 /* UIButton+SWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+SWExtension.swift"; path = "../../SWExtensions/UIKit/UIButton+SWExtension.swift"; sourceTree = "<group>"; };
 		2A08F6084133B734D4B1834B /* SWExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWExtensions.podspec; path = ../SWExtensions.podspec; sourceTree = "<group>"; };
 		2B2BEA042EF5EC88A6AF47BC /* Pods-SWExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWExtensions_Example/Pods-SWExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40E56319EE8B899268C83C6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -848,6 +848,7 @@
 				1C54754E1B39745600737ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C5475501B39745600737ED2 /* Build configuration list for PBXNativeTarget "SWExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -856,6 +857,7 @@
 				1C5475521B39745600737ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SWExtensions" */ = {
 			isa = XCConfigurationList;
